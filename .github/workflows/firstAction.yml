@@ -3,7 +3,7 @@ name: First Workflow
 on: [push]
 
 jobs:
-  print_on_console:
+  build:
     runs-on: ubuntu-latest
    
     steps:
