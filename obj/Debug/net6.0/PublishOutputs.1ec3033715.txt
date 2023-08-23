@@ -1,0 +1,7 @@
+C:\Users\marioibarra\dotnet-docker\src\bin\Debug\net6.0\publish\DotNetDocker.exe
+C:\Users\marioibarra\dotnet-docker\src\bin\Debug\net6.0\publish\appsettings.Development.json
+C:\Users\marioibarra\dotnet-docker\src\bin\Debug\net6.0\publish\appsettings.json
+C:\Users\marioibarra\dotnet-docker\src\bin\Debug\net6.0\publish\DotNetDocker.dll
+C:\Users\marioibarra\dotnet-docker\src\bin\Debug\net6.0\publish\DotNetDocker.deps.json
+C:\Users\marioibarra\dotnet-docker\src\bin\Debug\net6.0\publish\DotNetDocker.runtimeconfig.json
+C:\Users\marioibarra\dotnet-docker\src\bin\Debug\net6.0\publish\DotNetDocker.pdb
