@@ -1,0 +1,32 @@
+name: First Workflow
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    defaults:
+      run:
+        working-directory: src
+   
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+
+      - name: Set up .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '6.0.x'
+          include-prerelease: true
+
+      - name: Add format checker
+        run: dotnet add package StyleCop.Analyzers
+
+      - name: .NET build
+        run: dotnet build
+    
