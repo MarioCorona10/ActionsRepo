@@ -1,3 +1,5 @@
+name: Build when commiting to developer branch
+
 on:
   push:
     branches:
