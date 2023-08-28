@@ -1,0 +1,30 @@
+name: Push Build to Artifactory
+
+
+on: [push]
+
+
+jobs:
+ build:
+   runs-on: self-hosted
+  
+   steps:
+   # This action checks out the code from the repository
+   - name: Checkout Code
+     uses: actions/checkout@v2
+
+   - uses: jfrog/setup-jfrog-cli@v3
+   - run: jf --version
+
+   - uses: jfrog/setup-jfrog-cli@v3
+     env:
+    # JFrog platform url (for example: https://acme.jfrog.io) 
+       JF_URL: ${{ secrets.JF_URL }}
+    
+    # Basic authentication credentials
+       JF_USER: ${{ secrets.JF_USER }}
+       JF_PASSWORD: ${{ secrets.JF_PASSWORD }}
+       # JFrog Platform access token
+       #JF_ACCESS_TOKEN: ${{ secrets.JF_ACCESS_TOKEN }}
+   - run: |
+       jfrog config add artifactory-server --url="$JF_URL" --user="$JF_USER" --password="$JF_PASSWORD" --interactive=false
