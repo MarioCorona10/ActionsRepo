@@ -1,0 +1,50 @@
+name: Build and Deploy to Azure
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    defaults:
+      run:
+        working-directory: src
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '6.0.x'
+          include-prerelease: true
+
+      - name: Build with dotnet
+        run: dotnet build --configuration Release
+        working-directory: src
+
+      - name: dotnet publish
+        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        working-directory: src
+
+      - uses: jfrog/setup-jfrog-cli@v3
+      - run: jf --version
+
+      - uses: jfrog/setup-jfrog-cli@v3
+        env:
+    # JFrog platform url (for example: https://acme.jfrog.io) 
+         JF_URL: ${{ secrets.JF_URL }}
+    
+    # Basic authentication credentials
+         JF_USER: ${{ secrets.JF_USER }}
+         JF_PASSWORD: ${{ secrets.JF_PASSWORD }}
+       # JFrog Platform access token
+       #JF_ACCESS_TOKEN: ${{ secrets.JF_ACCESS_TOKEN }}
+      - run: |
+         jfrog config add artifactory-server --url="$JF_URL" --user="$JF_USER" --password="$JF_PASSWORD" --interactive=false
+
+      
