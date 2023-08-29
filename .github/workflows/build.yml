@@ -25,11 +25,15 @@ jobs:
 
       - name: Build with dotnet
         run: dotnet build --configuration Release
-        working-directory: src
 
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
-        working-directory: src
+
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v2
+        with:
+          name: .net-app
+          path: ${{env.DOTNET_ROOT}}/myapp
 
       - uses: jfrog/setup-jfrog-cli@v3
       - run: jf --version
@@ -46,5 +50,11 @@ jobs:
        #JF_ACCESS_TOKEN: ${{ secrets.JF_ACCESS_TOKEN }}
       - run: |
          jfrog config add artifactory-server --url="$JF_URL" --user="$JF_USER" --password="$JF_PASSWORD" --interactive=false
+
+      - name: Push Build to Artifactory
+      - run: |
+          set PATH_TO_DIRECTORY="name/version/dates"
+          jf rt upload "**/DotNetDocker.dll" Gitrepo/$PATH_TO_DIRECTORY --build-name $JFROG_CLI_BUILD_NAME --build-number $JFROG_CLI_BUILD_NUMBER 
+          
 
       
