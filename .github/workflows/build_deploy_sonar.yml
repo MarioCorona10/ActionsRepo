@@ -63,7 +63,6 @@ jobs:
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"MarioCorona10_ActionsRepo_AYoes2f07yuZ0sVB1xts" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="${{ secrets.SONAR_HOST_URL }}"
           dotnet build --configuration Release
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
-
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
