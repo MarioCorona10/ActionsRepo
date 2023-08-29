@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy to Azure integrating SonarQube
+name: Build and deploy to Azure integrating SonarQube and JFrog
 
 on:
   push:
@@ -67,26 +67,18 @@ jobs:
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
-      - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v2
-        with:
-          name: .net-app
-          path: ${{env.DOTNET_ROOT}}/myapp
-
-      - uses: jfrog/setup-jfrog-cli@v3
-      - run: jf --version
-
-      - uses: jfrog/setup-jfrog-cli@v3
+      - name: Check jfrog version
+        run: jf --version
+      
+      - name: jfrog environment variables
+        uses: jfrog/setup-jfrog-cli@v3
         env:
-    # JFrog platform url (for example: https://acme.jfrog.io) 
          JF_URL: ${{ secrets.JF_URL }}
-    
-    # Basic authentication credentials
          JF_USER: ${{ secrets.JF_USER }}
          JF_PASSWORD: ${{ secrets.JF_PASSWORD }}
-       # JFrog Platform access token
-       #JF_ACCESS_TOKEN: ${{ secrets.JF_ACCESS_TOKEN }}
-      - run: |
+
+      - name: Add jfrog server configuration 
+        run: |
          jfrog config add artifactory-server --url="$JF_URL" --user="$JF_USER" --password="$JF_PASSWORD" --interactive=false
 
       - name: Upload to jfrog
@@ -94,6 +86,12 @@ jobs:
          jf rt dl Gitrepo/
          jf rt u "**/DotNetDocker.dll" Gitrepo/
          jf rt bp
+
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v2
+        with:
+          name: .net-app
+          path: ${{env.DOTNET_ROOT}}/myapp
 
   deploy:
     runs-on: self-hosted
