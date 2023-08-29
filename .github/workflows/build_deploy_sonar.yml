@@ -68,9 +68,6 @@ jobs:
         run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
       - uses: jfrog/setup-jfrog-cli@v3
-      - run: jf --version
-
-      - uses: jfrog/setup-jfrog-cli@v3
         env:
     # JFrog platform url (for example: https://acme.jfrog.io) 
          JF_URL: ${{ secrets.JF_URL }}
