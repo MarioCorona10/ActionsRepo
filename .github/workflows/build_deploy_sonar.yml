@@ -64,28 +64,6 @@ jobs:
           dotnet build --configuration Release
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
 
-      - uses: jfrog/setup-jfrog-cli@v3
-      - run: jf --version
-
-      - uses: jfrog/setup-jfrog-cli@v3
-        env:
-    # JFrog platform url (for example: https://acme.jfrog.io) 
-         JF_URL: ${{ secrets.JF_URL }}
-    
-    # Basic authentication credentials
-         JF_USER: ${{ secrets.JF_USER }}
-         JF_PASSWORD: ${{ secrets.JF_PASSWORD }}
-       # JFrog Platform access token
-       #JF_ACCESS_TOKEN: ${{ secrets.JF_ACCESS_TOKEN }}
-      - run: |
-         jfrog config add artifactory-server --url="$JF_URL" --user="$JF_USER" --password="$JF_PASSWORD" --interactive=false
-
-      - name: Upload to jfrog
-        run: |
-         jf rt dl Gitrepo/
-         jf rt u "**/DotNetDocker.dll" Gitrepo/
-         jf rt bp
-
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
