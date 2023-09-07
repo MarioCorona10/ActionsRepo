@@ -1,9 +1,8 @@
 name: Change Tracking Marker
 
 on:
-  #release:
-    #types: [published]
-  workflow_dispatch:
+  release:
+    types: [published]
 
 jobs:
   newrelic:
