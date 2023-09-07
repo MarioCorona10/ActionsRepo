@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Calculator";
+}
+
+@model CalculatorDotNet.Models.CalculatorModel
+
+<div style="display: block; margin: auto; width: 70%;">
+	<h1 style="color:blue; margin-top: 20px; margin-bottom: 30px; display: block; text-align: center;">.Net MVC Calculator</h1>
+
+	<form method="post">
+		<div style="margin-left: auto; margin-right: auto; margin-bottom: 10px; width: 70%">
+			<h3 style="display: inline-block; margin-left: 110px; margin-right: 10px;">First number:</h3>
+			<input type="text" asp-for="value1" style="display:inline-block"><br>
+		</div>
+		<div style="margin-left: auto; margin-right: auto; margin-bottom: 20px; width: 70%;">
+			<h3 style="display: inline-block; margin-left: 70px; margin-right: 10px;">Second number:</h3>
+			<input type="text" asp-for="value2" style="display:inline-block"><br>
+		</div>
+		<div style="margin: auto; width: 50%;">
+			<div style="display: block; margin: auto; width: 50%;">
+				<input type="submit" value="+" asp-controller="Calculator" asp-action="Add" style="display: inline-block; margin-left: 50px; margin-top: 20px; margin-right: 20px; width: 50px; height: 50px">
+				<input type="submit" value="-" asp-controller="Calculator" asp-action="Substract" style="display: inline-block; margin-top: 20px; width: 50px; height: 50px">
+			</div>
+			<div style="display: block; margin: auto; width: 50%;">
+				<input type="submit" value="x" asp-controller="Calculator" asp-action="Multiply" style="display: inline-block; margin-left: 50px; margin-top: 20px; margin-right: 20px; width: 50px; height: 50px">
+				<input type="submit" value="/" asp-controller="Calculator"	asp-action="Divide" style="display: inline-block; margin-top: 20px; width: 50px; height: 50px">
+			</div>
+		</div>
+	</form>
+
+</div>

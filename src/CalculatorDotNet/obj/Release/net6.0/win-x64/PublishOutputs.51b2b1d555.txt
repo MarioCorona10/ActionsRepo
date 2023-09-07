@@ -1,0 +1,7 @@
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Release\net6.0\win-x64\PubTmp\Out\CalculatorDotNet.exe
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Release\net6.0\win-x64\PubTmp\Out\appsettings.Development.json
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Release\net6.0\win-x64\PubTmp\Out\appsettings.json
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Release\net6.0\win-x64\PubTmp\Out\CalculatorDotNet.dll
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Release\net6.0\win-x64\PubTmp\Out\CalculatorDotNet.deps.json
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Release\net6.0\win-x64\PubTmp\Out\CalculatorDotNet.runtimeconfig.json
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Release\net6.0\win-x64\PubTmp\Out\CalculatorDotNet.pdb

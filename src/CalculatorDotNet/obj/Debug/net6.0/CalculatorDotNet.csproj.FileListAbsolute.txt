@@ -1,0 +1,96 @@
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\bin\Debug\net6.0\appsettings.json
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\bin\Debug\net6.0\CalculatorDotNet.staticwebassets.runtime.json
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\bin\Debug\net6.0\CalculatorDotNet.exe
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\bin\Debug\net6.0\CalculatorDotNet.deps.json
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\bin\Debug\net6.0\CalculatorDotNet.runtimeconfig.json
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\bin\Debug\net6.0\CalculatorDotNet.dll
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\bin\Debug\net6.0\CalculatorDotNet.pdb
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.csproj.AssemblyReference.cache
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.AssemblyInfoInputs.cache
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.AssemblyInfo.cs
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.csproj.CoreCompileInputs.cache
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.RazorAssemblyInfo.cache
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.RazorAssemblyInfo.cs
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\staticwebassets\msbuild.CalculatorDotNet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\staticwebassets\msbuild.build.CalculatorDotNet.props
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CalculatorDotNet.props
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CalculatorDotNet.props
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\scopedcss\bundle\CalculatorDotNet.styles.css
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\scopedcss\projectbundle\CalculatorDotNet.bundle.scp.css
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.dll
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\refint\CalculatorDotNet.dll
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.pdb
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.genruntimeconfig.cache
+C:\Users\CrisM\source\repos\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\ref\CalculatorDotNet.dll
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\bin\Debug\net6.0\appsettings.json
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\bin\Debug\net6.0\CalculatorDotNet.staticwebassets.runtime.json
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\bin\Debug\net6.0\CalculatorDotNet.exe
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\bin\Debug\net6.0\CalculatorDotNet.deps.json
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\bin\Debug\net6.0\CalculatorDotNet.runtimeconfig.json
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\bin\Debug\net6.0\CalculatorDotNet.dll
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\bin\Debug\net6.0\CalculatorDotNet.pdb
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.csproj.AssemblyReference.cache
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.AssemblyInfoInputs.cache
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.AssemblyInfo.cs
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.csproj.CoreCompileInputs.cache
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.RazorAssemblyInfo.cache
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.RazorAssemblyInfo.cs
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\staticwebassets\msbuild.CalculatorDotNet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\staticwebassets\msbuild.build.CalculatorDotNet.props
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CalculatorDotNet.props
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CalculatorDotNet.props
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\scopedcss\bundle\CalculatorDotNet.styles.css
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\scopedcss\projectbundle\CalculatorDotNet.bundle.scp.css
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.dll
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\refint\CalculatorDotNet.dll
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.pdb
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.genruntimeconfig.cache
+C:\Users\marioibarra\CalculatorDotNet\CalculatorDotNet\obj\Debug\net6.0\ref\CalculatorDotNet.dll
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\bin\Debug\net6.0\appsettings.json
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\bin\Debug\net6.0\CalculatorDotNet.staticwebassets.runtime.json
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\bin\Debug\net6.0\CalculatorDotNet.exe
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\bin\Debug\net6.0\CalculatorDotNet.deps.json
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\bin\Debug\net6.0\CalculatorDotNet.runtimeconfig.json
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\bin\Debug\net6.0\CalculatorDotNet.dll
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\bin\Debug\net6.0\CalculatorDotNet.pdb
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.csproj.AssemblyReference.cache
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.AssemblyInfoInputs.cache
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.AssemblyInfo.cs
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.csproj.CoreCompileInputs.cache
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.RazorAssemblyInfo.cache
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.RazorAssemblyInfo.cs
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\staticwebassets\msbuild.CalculatorDotNet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\staticwebassets\msbuild.build.CalculatorDotNet.props
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CalculatorDotNet.props
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CalculatorDotNet.props
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\scopedcss\bundle\CalculatorDotNet.styles.css
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\scopedcss\projectbundle\CalculatorDotNet.bundle.scp.css
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.dll
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\refint\CalculatorDotNet.dll
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.pdb
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\CalculatorDotNet.genruntimeconfig.cache
+C:\Users\marioibarra\CalculatorDotNet - Copy\src\CalculatorDotNet\obj\Debug\net6.0\ref\CalculatorDotNet.dll
